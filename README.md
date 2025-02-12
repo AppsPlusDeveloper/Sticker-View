@@ -1,4 +1,4 @@
-<center></br><b>Intent-Filter</b> es un sistema de Android para recibir contenido de otras Apps como enlaces o archivos, en este proyecto te muestro a implementarlo y usarlo correctamente.
+<center></br><b>Sticker-View</b> es un sistema para agregar la opción a una view de ser rotada o ajustar su tamaño.
     </br> </br>
     <img src="./Preview/preview1.gif" width=300 title="Screen">
 </center></br>
