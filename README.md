@@ -61,28 +61,15 @@ El FrameLayout debe contener dentro las Views que quieras usar como Stickers.
 
 ```xml
 <FrameLayout
-
-		android:id="@+id/myframe"
-
-		android:layout_width="match_parent"
-
-		android:layout_height="match_parent"
-
-		android:gravity="center_horizontal|center_vertical"
-
-		android:orientation="vertical">
-
-		<ImageView
-
-			android:id="@+id/myview"
-
-			android:layout_width="wrap_content"
-
-			android:layout_height="wrap_content"
-
-			android:src="@drawable/default_image"
-
-			android:scaleType="fitCenter" />
-
-	</FrameLayout>
+ android:id="@+id/myframe"
+ android:layout_width="match_parent"
+ android:layout_height="match_parent" android:gravity="center_horizontal|center_vertical"
+ android:orientation="vertical">
+   <ImageView
+   android:id="@+id/myview"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:src="@drawable/default_image"
+   android:scaleType="fitCenter" />
+</FrameLayout>
 ```
