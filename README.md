@@ -39,20 +39,18 @@ Los eventos disponibles son los siguentes:
 
 ```java
 st.setOnEvent(new StickerView.onEvent(){
-					@Override 
-					public void onSizeChanged(int height,int width){
-		
-					}
-					@Override 
-					public void onClose(){
-				
-					}
+@Override 
+public void onSizeChanged(int height,int width){
 
-	@Override
-					public void onRotation(float rotation){
-		
-		    
-								
-					}
-		});
+}
+@Override 
+public void onClose(){
+
+}
+@Override
+public void onRotation(float rotation){
+
+}
+
+});
 ```
