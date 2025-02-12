@@ -18,3 +18,41 @@ private StickerView st;
 Ahora seleccionemos un FrameLayout sobre el cuál pondremos nuestro StickerView.
 
 ```java
+myframe.addView(st);
+```
+
+Para seleccionar una view.
+
+```java
+st.select(myview);
+```
+
+Quitar la selección actual.
+
+```java
+st.unselect();
+```
+
+## Eventos
+
+Los eventos disponibles son los siguentes:
+
+```java
+st.setOnEvent(new StickerView.onEvent(){
+					@Override 
+					public void onSizeChanged(int height,int width){
+		
+					}
+					@Override 
+					public void onClose(){
+				
+					}
+
+	@Override
+					public void onRotation(float rotation){
+		
+		    
+								
+					}
+		});
+```
