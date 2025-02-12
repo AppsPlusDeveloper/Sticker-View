@@ -3,14 +3,18 @@
     <img src="./Preview/logo.png" width=150 title="Screen">
 </center></br>
 
-##Importación
+## Importación
 
 Importa el archivo java "StickerView" a tú proyecto y añade iconos con los nombres "R.drawable.crop_black", "R.drawable.close", "R.drawable.rotate_cw_black". Estos iconos serán los que tendra tú Sticker View.
 
-##Inicio
+## Inicio
 
 Comencemos por declarar una ID a nuestro Sticker View.
 
 ```java
 private StickerView st;
 ```
+
+Ahora seleccionemos un FrameLayout sobre el cuál pondremos nuestro StickerView.
+
+```java
